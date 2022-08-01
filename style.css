@@ -1,0 +1,309 @@
+
+html{
+    font-size: 16px;
+}
+/* page start */
+.img-start{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-bottom: 15%;
+}
+
+.my-logo img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    height: 20%; 
+}
+
+
+.my-name {
+    text-align: center;
+    font-family: 'Inspiration', cursive;
+    font-size:3vw;
+    color: white;
+    margin: auto;
+    border-bottom: 1px solid white;
+    width:18vw;
+    white-space: nowrap;
+}
+
+.color-div{
+    color:white;
+    font-family: 'Inspiration', cursive;
+    font-size:1.5vw;
+
+}
+/* page start */
+
+/* selection section */
+.box{
+    padding: 0 18px;
+    font-size: 2vw;
+}
+
+.image{
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+.image:hover img{
+    transform: scale(1.5);
+}
+
+.page-start .div-image{
+    width: 100%;
+    margin-top: 8%;
+}
+
+@media screen and (max-width:1078px)  {
+   
+    .image{
+        width: 75%;
+    }
+    .div-image{
+        margin-top: 20%;
+    }
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+    white-space: nowrap;
+}
+/* selection section */
+
+/* Footer */
+
+.footer-page img{
+    width:40%;
+}
+
+@media screen and (max-width:1078px)  {
+   
+    .footer-page img{
+        margin-top: 5%;
+        width:18%
+    }
+}
+
+.font-column{
+    color: rgb(114, 106, 106);
+    font-style: italic;
+}
+
+.img-start .footer-container{
+    font-size: 95%;
+}
+
+/* Footer */
+
+/* skills, services and about me */
+.full-background{
+    width: 100%;
+}
+.first-half{
+    width: 50%; 
+    height: 100vh; 
+    float: left;
+}
+
+.second-half{
+    margin-left: 50%; 
+    height: 100vh; 
+}  
+
+.font-awesome-half1{
+    margin-top: 3% ;
+    
+}  
+.font-awesome-half1 i{
+    color:gray;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+.icon-services p{
+    width: 220px;
+    margin:0 auto;
+
+}
+.icon-skills p{
+    width: 220px;
+    margin:10px  auto 20px;
+
+}
+/* skills, services and about me */
+
+/* Contact */
+.contact-me{
+    background-image: url('/images/contactme.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.contact-me::before { 
+    content: " "; 
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    background-color: rgba(0,0,0,0.75);
+}
+
+.div-contact{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70vw;
+    transform: translate(-50%, -50%);
+    background-color: rgb(91, 89, 89);
+    color: white;
+    white-space: nowrap;
+}
+
+.div-contact h1{
+    top: -10%;
+    margin: auto;
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width:18vw;
+    white-space: nowrap;
+    padding-top: 3%;
+}
+
+.column-contact{
+    padding: 7% 0;
+    font-size: 90%;
+    font-style: italic;
+}
+.icon-contact{
+    margin-left:-20px;
+    margin-right: 3px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 5%;
+}
+
+.center i{
+    padding: 0 3%;
+    color: white;
+}
+.center i:hover{
+    position: relative;
+    top:-6px;
+}
+/* Contact */
+
+/* the sections about me, skills, services and contact */
+.container p{
+    font-size:95%;
+    font-style: italic;
+}
+
+.title-section{
+    padding-top: 10%;
+    font-family: 'Inspiration', cursive;
+    font-size: 5vw;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    margin: 0 15%;
+    width:18vw;
+}
+
+.title-section2{
+    padding-top: 10%;
+    font-family: 'Inspiration', cursive;
+    font-size: 5vw;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    margin: 0 40%;
+    width:18vw;
+}
+
+.describe-me{
+    padding: 0 7%;
+    padding-top: 10%;
+    margin-right:17%;
+    font-size: 100%;
+    font-weight: 500;
+    text-indent: 15%;
+    color: rgb(0, 0, 0);
+}
+
+
+.page-start{
+    display:hidden;
+    float:center;
+    overflow: hidden;
+
+}
+
+
+
+.box1, .box2, .box3, .box4{
+    display:none;
+    overflow: hidden;  
+}
+/* the sections about me, skills, services and contact */
+
+/* Close button */
+
+#button-x1, #button-x3{
+    background: none;
+    border: none;
+    float: right;
+    margin: 3%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#button-x1:hover, #button-x2:hover, #button-x2:hover, #button-x4:hover{
+    outline: none;
+}
+
+#button-x2{
+    background: none;
+    border: none;
+    float: left;
+    margin: 3%;
+    font-size: 30px;
+    font-weight: 700;
+}
+#button-x4{
+    background: none;
+    border: none;
+    margin: 3%;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* Close button */
